@@ -6,3 +6,5 @@ create-migrations:
 
 run-migrations:
 	@PYTHONPATH=$PYTHONPATH:$(pwd) alembic upgrade head
+
+#para windows 10 usei chocolatey para usar comando make 
